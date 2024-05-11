@@ -1,0 +1,21 @@
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $color-white;
+  color: $color-white;
+}
+
+h1 {font-size: toRem(36);}
+h2 {font-size: toRem(32);}
+h3 {font-size: toRem(24);}
+h4 {font-size: toRem(18);}
+h5 {font-size: toRem(16);}
+h6 {font-size: toRem(14);}
+
+li {list-style-type: none;}
+a {text-decoration: none; color: $color-white;}

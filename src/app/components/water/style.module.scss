@@ -1,0 +1,44 @@
+@import "../../../styles/variables";
+
+.section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 300px;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+  }
+
+  h1, h2, h4 {
+    text-shadow: 2px 2px 0 $color-brown;
+    text-align: center;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+
+    .card {
+      gap: toRem(100);
+      display: flex;
+      align-items: center;
+
+      &:nth-child(even) {
+        flex-direction: row-reverse;
+      }
+    }
+
+    .cardDescription {
+        max-width: 800px;
+        display: flex;
+        flex-direction: column;
+        gap: toRem(50);
+    }
+  }
+}

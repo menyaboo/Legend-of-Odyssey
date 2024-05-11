@@ -1,0 +1,11 @@
+// palette
+$color-white: #ffffff;
+$color-green: #2abf46;
+$color-brown: #3E0D0D;
+$color-brown-light: #d2a96f;
+
+// mixins
+@function toRem($value, $base: 16) {
+  $remValue: ($value / $base) + rem;
+  @return $remValue;
+}

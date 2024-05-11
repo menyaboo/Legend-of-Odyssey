@@ -1,0 +1,17 @@
+@import "src/styles/variables.scss";
+
+.button {
+  color: $color-brown;
+  border: 4px solid $color-brown;
+  position: relative;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10px 25px;
+  background-color: $color-brown-light;
+  clip-path: polygon(0 4px, 4px 4px, 4px 0, calc(100% - 4px) 0, calc(100% - 4px) 4px, 100% 4px, 100% calc(100% - 4px), calc(100% - 4px) calc(100% - 4px), calc(100% - 4px) 100%, 4px 100%, 4px calc(100% - 4px), 0 calc(100% - 4px));
+  box-shadow: inset -4px -4px 0px rgba(0, 0, 0, 0.2), inset 4px 4px 0px rgba(255, 255, 255, 0.2);
+  filter: /* drop shadow */ drop-shadow(4px 4px 0px rgba(0, 0, 0, 0.25));
+}
+

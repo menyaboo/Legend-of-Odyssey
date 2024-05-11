@@ -1,0 +1,43 @@
+@import "../../../styles/variables";
+
+.section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+
+  .descriptionWrapper {
+    width: 730px;
+    height: 374px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .description {
+    padding: toRem(50) toRem(95);
+    color: $color-brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+
+    h1, h2 {
+      text-align: center;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    gap: toRem(90);
+    width: 100%;
+    justify-content: center;
+  }
+}

@@ -3,6 +3,7 @@ import {ReactNode} from "react";
 import {Press_Start_2P} from "next/font/google";
 import "../styles/globals.scss";
 import HeaderComponent from "@/components/header";
+import FooterComponent from "@/components/footer";
 
 const inter = Press_Start_2P({
   weight: '400',
@@ -10,8 +11,8 @@ const inter = Press_Start_2P({
 });
 
 export const metadata: Metadata = {
-  title: "Misguided World",
-  description: "Misguided World",
+  title: "Legend of Odyssey",
+  description: "Legend of Odyssey",
 };
 
 export default function RootLayout({
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <HeaderComponent/>
         {children}
+        <FooterComponent/>
       </body>
     </html>
   );

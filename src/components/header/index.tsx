@@ -17,7 +17,9 @@ const HeaderComponent = (): ReactNode => (
                         </li>
                     ))}
                 </ul>
-                <Image src={'/logo.png'} alt="logo" width={100} height={50} className={styles.logo}/>
+                <Link href="/">
+                    <Image src={'/logo.png'} alt="logo" width={100} height={50} className={styles.logo}/>
+                </Link>
                 <div className={styles.socialLinks}>
                     {
                         socialLinks.map(el => (
@@ -30,7 +32,7 @@ const HeaderComponent = (): ReactNode => (
                 </div>
             </ContainerComponent>
         </div>
-        <div className={styles.grassImage} style={{backgroundImage: 'url(/images/используемое/grass.png)'}}/>
+        <div className={styles.grassImage} style={{backgroundImage: 'url(/images/usage/grass.png)'}}/>
     </header>
 );
 

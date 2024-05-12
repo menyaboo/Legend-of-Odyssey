@@ -3,10 +3,10 @@ import styles from "@/app/components/main/style.module.scss";
 import ButtonComponent from "@/components/button";
 
 const MainSection = (): ReactNode => (
-    <section className={styles.section} style={{backgroundImage: 'url(/images/используемое/bg-section-1.png)'}}>
-        <div className={styles.descriptionWrapper} style={{backgroundImage: 'url(/images/используемое/sign.png)'}}>
+    <section className={styles.section} style={{backgroundImage: 'url(/images/usage/bg-section-1.png)'}}>
+        <div className={styles.descriptionWrapper} style={{backgroundImage: 'url(/images/usage/sign.png)'}}>
             <div className={styles.description}>
-                <h1>Misguided World</h1>
+                <h1>Legend of Odyssey</h1>
                 <h2>Decentralization in a new form</h2>
                 <h2>Build a game that you enjoy</h2>
             </div>

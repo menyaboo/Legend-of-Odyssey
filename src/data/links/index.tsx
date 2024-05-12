@@ -8,17 +8,17 @@ const links: ILink[] = [
     {
         id: 1,
         name: 'Roadmap',
-        url: '#roadmap',
+        url: '/',
     },
     {
         id: 2,
         name: 'NFT',
-        url: '/nft',
+        url: '/',
     },
     {
         id: 3,
         name: 'Docs',
-        url: '/docs',
+        url: '/',
     }
 ]
 
@@ -26,14 +26,14 @@ const socialLinks: (ILink & { image: string })[] = [
     {
         id: 1,
         name: 'Discord',
-        url: 'https://discord.gg/misguidedworld',
-        image: '/images/используемое/дс.png',
+        url: 'https://discord.gg/gRP2tWtY9B',
+        image: '/images/usage/discord.png',
     },
     {
         id: 2,
         name: 'Twitter',
-        url: 'https://twitter.com/MisguidedWorld',
-        image: '/images/используемое/твиттер черный фон.png',
+        url: 'https://twitter.com/LegendofOdyssey',
+        image: '/images/usage/twitter-black.png',
     },
 ]
 

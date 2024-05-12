@@ -5,7 +5,7 @@ import ContainerComponent from "@/components/container";
 import {waterCards} from "@/data/water-card";
 
 const WaterSection = (): ReactNode => (
-    <section className={styles.section} style={{backgroundImage: 'url(/images/используемое/bg-section-3.png)'}}>
+    <section className={styles.section} style={{backgroundImage: 'url(/images/usage/bg-section-3.png)'}}>
         <ContainerComponent className={styles.container}>
             <h1>Your adventure begins</h1>
             <div className={styles.cards}>

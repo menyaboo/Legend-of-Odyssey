@@ -8,7 +8,7 @@ const links: ILink[] = [
     {
         id: 1,
         name: 'Roadmap',
-        url: '/',
+        url: '/roadmap',
     },
     {
         id: 2,

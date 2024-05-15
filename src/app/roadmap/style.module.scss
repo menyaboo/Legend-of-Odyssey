@@ -1,0 +1,58 @@
+@import "src/styles/variables";
+
+.main {
+  padding: toRem(120) 0 toRem(50) 0;
+  color: $color-brown;
+  background-color: $color-white-light;
+
+  .container {
+    .top {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: toRem(24);
+
+      > p {
+        > span { color: #123AEA; }
+        text-align: center;
+        max-width: 1200px;
+        line-height: toRem(24);
+      }
+    }
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: toRem(100);
+    padding: toRem(50) 0;
+
+    .card {
+      &:nth-child(even) {
+        flex-direction: row-reverse;
+
+        > div:first-child {
+          flex-direction: row-reverse;
+        }
+      }
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+
+      > div {
+        display: flex;
+        align-items: center;
+        gap: toRem(50);
+      }
+
+      .cardDescription {
+        display: flex;
+        flex-direction: column;
+        gap: toRem(14);
+      }
+    }
+  }
+}

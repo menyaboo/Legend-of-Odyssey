@@ -18,7 +18,7 @@ const links: ILink[] = [
     {
         id: 3,
         name: 'Docs',
-        url: '/',
+        url: 'https://legend-of-odyssey.gitbook.io/legend-of-odyssey',
     }
 ]
 
